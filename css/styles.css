@@ -47,7 +47,7 @@ a:hover {
 }
 
 .header-nav-link {
-  color: #404bbf;
+  color: #2e2f42;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -64,7 +64,7 @@ a:hover {
 .header-address {
   font-style: normal;
 }
-.header-address:focus {
+.header-address-link:focus {
   color: #404bbf;
 }
 
