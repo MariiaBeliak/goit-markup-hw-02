@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul,
@@ -25,6 +25,7 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-logo-studio {
@@ -34,6 +35,7 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-nav-list {
@@ -41,6 +43,14 @@ a:hover {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-nav-link {
+  color: #2e2f42;
+}
+.header-nav-link:hover {
+  color: #404bbf;
 }
 
 .header-address-list {
@@ -48,6 +58,13 @@ a:hover {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.header-address {
+  font-style: normal;
+}
+.header-address:focus {
+  color: #404bbf;
 }
 
 .header-address-link {
@@ -60,9 +77,10 @@ a:hover {
 
 /* main-section */
 .main-section {
-  width: 1440px;
-  height: 600px;
+  color: #2e2f42;
+  background-color: #2e2f42;
 }
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -86,6 +104,11 @@ a:hover {
   background: #404bbf;
 }
 
+.main-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
 /*The second section */
 
 .intro-subtitle {
@@ -93,6 +116,7 @@ a:hover {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .intro-text {
@@ -103,6 +127,13 @@ a:hover {
 }
 
 /* third */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #ffffff;
+}
 
 .team-title {
   font-weight: 700;
@@ -110,11 +141,12 @@ a:hover {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-img {
   width: 264px;
-  height: 380px;
 }
 
 .team-names {
@@ -123,6 +155,7 @@ a:hover {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-text {
@@ -141,11 +174,12 @@ a:hover {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-img {
   width: 360px;
-  height: 300px;
 }
 
 .portfolio-subtitle {
@@ -153,6 +187,7 @@ a:hover {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-text {
@@ -163,6 +198,10 @@ a:hover {
 }
 
 /* footer */
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
@@ -170,6 +209,7 @@ a:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-logo-studio {
