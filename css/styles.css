@@ -47,9 +47,10 @@ a:hover {
 }
 
 .header-nav-link {
-  color: #2e2f42;
+  color: #404bbf;
 }
-.header-nav-link:hover {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: #404bbf;
 }
 
@@ -145,10 +146,6 @@ a:hover {
   text-transform: capitalize;
 }
 
-.team-img {
-  width: 264px;
-}
-
 .team-names {
   font-weight: 500;
   font-size: 20px;
@@ -176,10 +173,6 @@ a:hover {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-}
-
-.portfolio-img {
-  width: 360px;
 }
 
 .portfolio-subtitle {
