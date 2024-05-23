@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #2e2f42;
 }
 
 ul,
@@ -9,6 +11,10 @@ ol {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: #404bbf;
 }
 
 /* header */
@@ -35,7 +41,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .header-address-list {
@@ -45,9 +50,16 @@ a {
   color: #434455;
 }
 
+.header-address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* main-section */
 .main-section {
-  background: #2e2f42;
   width: 1440px;
   height: 600px;
 }
@@ -66,6 +78,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background: #4d5ae5;
+}
+
+.main-button:hover {
+  color: #fff;
+  background: #404bbf;
 }
 
 /*The second section */
@@ -75,7 +93,6 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .intro-text {
@@ -93,7 +110,6 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 
 .team-img {
@@ -107,7 +123,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 
 .team-text {
@@ -126,7 +141,6 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #2e2f42;
 }
 
 .portfolio-img {
@@ -139,7 +153,6 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .portfolio-text {
