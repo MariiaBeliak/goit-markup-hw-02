@@ -1,7 +1,7 @@
 body {
   background: #fff;
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -12,8 +12,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}
 
-button:hover {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 
@@ -44,12 +49,20 @@ button:hover {
   letter-spacing: 0.02em;
 }
 
-.address-list {
+.header-adress {
+  font-style: normal;
+}
+.address-link {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
 .main-section {
   background: #2e2f42;
 }
@@ -63,7 +76,6 @@ button:hover {
   color: #fff;
 }
 .button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -90,6 +102,9 @@ button:hover {
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.team-section {
+  background-color: #f4f4fd;
+}
 .team-sec-main-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -98,8 +113,12 @@ button:hover {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
+.team-sec-item {
+  background-color: #ffffff;
+}
 .team-sec-img {
   background: #fff;
 }
@@ -131,6 +150,7 @@ button:hover {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
